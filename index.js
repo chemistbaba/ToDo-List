@@ -8,7 +8,9 @@ app.use(bodyParser.urlencoded({
 app.use(express.static(__dirname + "/dosyalar"));
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-mongoose.connect("mongodb+srv://emre:1234@cluster0.asuuu.mongodb.net/Cluster0?retryWrites=true&w=majority", {
+
+
+mongoose.connect("mongodb+srv://chemistbaba:1234@cluster0.yq3vd.mongodb.net/Cluster0?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
